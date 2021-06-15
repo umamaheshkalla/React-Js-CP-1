@@ -1,0 +1,31 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #0f172a;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-family: "Roboto";
+  color: #f8fafc;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 250px;
+    width: 230px;
+  }
+}
